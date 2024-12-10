@@ -114,3 +114,67 @@ button{
   margin: 50px 70px;
 
 }
+
+.flexbox4{
+  margin-top: 55px;;
+  display: flex;
+  width:auto;
+  height:auto;
+  justify-content: center;
+  color: white;
+  
+}
+
+.flexbox4 div{
+  width:650px;
+  height: 100px;
+  background-color: #3882F6;
+  font-size: 20px;
+  
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+ 
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.flexbox4 div div{
+  
+  justify-content: center;
+  height: auto;
+  width: auto;
+  
+}
+
+button{
+  height: 50px;
+  width: 100x;
+  border-radius: 12px;
+}
+.flexbox4 div div div{
+  width: auto;
+  padding: 0;
+  height: auto;
+  font-size:28px;
+}
+
+#belowText{
+  font-size: 18px;
+  width: auto;
+  margin-bottom: 42px;
+}
+#Call-to-action{
+  flex-basis: 60%;
+  flex-direction: column;
+  
+}
+
+.flexbox5{
+  width: auto;
+  height: 40px;
+  margin-top: 40px;
+  background-color: #1F2937;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}
